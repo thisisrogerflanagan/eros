@@ -1,0 +1,16 @@
+/*****************************************************************************
+
+    SIDEBAR
+
+*****************************************************************************/
+.sidebar {
+	background: $light-grey;
+	width: 250px;
+}
+
+
+
+// COMPONENTS
+@import "../components/logo";
+@import "../components/search";
+@import "../components/app-nav";

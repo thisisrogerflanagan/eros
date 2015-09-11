@@ -1,0 +1,25 @@
+/*****************************************************************************
+
+    APP NAVIGATION (SIDEBAR)
+
+*****************************************************************************/
+.nav-section {
+	border-bottom: 1px solid #ededee;
+}
+
+.sub-link {
+	color: $med-grey;
+	display: block;
+	padding: 1.5rem;
+	text-decoration: none;
+	transition: all .1s;
+	
+	&:hover {
+		color: $light-red;
+	}
+	
+	&.is-selected {
+		background: #f0f0f0;
+		border-left: 2px solid $light-blue;
+	}
+}

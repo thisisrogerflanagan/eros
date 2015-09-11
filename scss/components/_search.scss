@@ -1,0 +1,33 @@
+/*****************************************************************************
+
+    SEARCH (SIDEBAR)
+
+*****************************************************************************/
+.search-block {
+	border-bottom: 1px solid #ededee;
+	padding: 1.5rem;
+	
+	> input, .icon-font {
+		color: $med-grey;
+	}
+	
+	> input {
+		background: none;
+		border: 1px solid transparent;
+		transition: all .1s ease-in-out;
+		width: 192px;
+		
+		&:focus {
+			border-bottom: 1px solid $light-red;
+			outline: none;
+		}
+	}
+	
+	.icon-font {
+		margin-right: 5px;
+	}
+	
+	::-webkit-input-placeholder {
+	   color: $med-grey;
+	}
+}

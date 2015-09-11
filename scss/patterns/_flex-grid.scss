@@ -1,0 +1,16 @@
+/*****************************************************************************
+
+    Flexible Grid
+
+*****************************************************************************/
+@mixin flex-grid($width, $margin-bottom) {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	> li {
+		flex: 1 1 $width;
+		margin-bottom: $margin-bottom;
+		max-width: $width;
+	}
+}

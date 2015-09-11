@@ -7,12 +7,229 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/eros.css">
     </head>
     <body>
+        
+        
+        <div class="eros-frame">
+        
+	        <header class="sidebar">
+		        <div class="logo-block">
+			        <span class="eros-logo hv-center"></span>
+		        </div>
+		        <div class="search-block valign-mid-container">
+		        	<span class="icon-font icon-thin-search"></span>
+			        <input type="search" placeholder="SEARCH" />
+		        </div>
+		        <nav class="app-nav">
+		        	<div class="nav-section">
+			        	<a class="sub-link" href="#">INTRODUCTION</a>
+		        	</div>
+		        	<div class="nav-section">
+			        	<ul class="app-nav-sub">
+					        <li>
+						        <a class="sub-link is-selected" href="">Colors</a>
+					        </li>
+					        <li>
+						        <a class="sub-link" href="">Icons</a>
+					        </li>
+					        <li>
+						        <a class="sub-link" href="">Typography</a>
+					        </li>
+				        </ul>
+		        	</div>
+		        </nav>
+	        </header>
+	        
+	        <div class="main">
+	        
+	        	<div class="pattern-library-view">
+			        
+			        <header class="pattern-library-header">
+				        <h1>EROS | Zoosk Pattern Library <span>Introduction</span></h1>
+			        </header>
+			        
+			        <div class="pattern-library-intro">
+				        <h4>The CSS at Zoosk is awesome.</h4>
+			        </div>
+			        
+			        <div class="pattern-library-section">
+			        	<h2>Contents</h2>
+			        	<ul class="bullet-list">
+				        	<li>
+					        	<a href="#">Quick Facts</a>
+				        	</li>
+				        	<li>
+					        	<a href="#">Architecture</a>
+				        	</li>
+				        	<li>
+					        	<a href="#">Refactoring</a>
+				        	</li>
+			        	</ul>
+			        </div>
+			        
+			        <div class="pattern-library-section">
+				        <h2>Quick Facts</h2>
+				        <p>A breakdown of the CSS here at Zoosk.</p>
+				        <ul class="bullet-list">
+					        <li>Preprocessor: SCSS</li>
+					        <li>The compiled css is served via two separate stylesheets to avoid the IE 9 selector limit</li>
+				        </ul>
+			        </div>
+			        
+			        <div class="pattern-library-section">
+				        <h2>Architecture</h2>
+				        <p>Common CSS architectures include BEM and OOCSS. We lean towards OOCSS, but we have no holistic approach. We do tend to write all our new stuff with a nebulous but basic approach:</p>
+				        <ul class="bullet-list">
+					        <li>Aim for classes over everything else in selectors</li>
+					        <li>Avoid deep nesting</li>
+					        <li>Look for existing patterns and variables before introducing new code</li>
+				        </ul>
+			        </div>
+			        
+			        <div class="pattern-library-section">
+				        <h2>Refactorings</h2>
+				        <p>There's plenty of legacy code here at Zoosk.</p>
+				        <ul class="bullet-list">
+					        <li>Manually finding things that look alike but actually have different HTML and CSS, then combining them.</li>
+					        <li>Running a script that greps for a class in our CSS to see if it exists in our views.</li>
+				        </ul>
+			        </div>
+			        
+			        
+		        </div>
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+	        
+		        
+		        <div class="pattern-library-view" style="display: none;">
+			        
+			        <header class="pattern-library-header">
+				        <h1>EROS | Zoosk Pattern Library <span>Colors</span></h1>
+			        </header>
+			        
+			        <div class="pattern-library-intro">
+				        <h4>These are our brand colors. The look and feel of our company and product relies on using a handful of specific colors that help convey meaning and purpose. When using these colors use the SCSS variable rather than referencing the hex code directly.</h4>
+			        </div>
+			        
+			        <div class="pattern-library-section">
+			        
+			        	<div class="pattern-library-content">
+					        <ul class="hex-grid flex-grid">
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch body-text"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$body-text</span>
+									        <span class="hex-value">#333333</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch subtle-text"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$subtle-text</span>
+									        <span class="hex-value">#666666</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch very-subtle-text"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$very-subtle-text</span>
+									        <span class="hex-value">#999999</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch general-page-header-text"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$general-page-header-text</span>
+									        <span class="hex-value">#465054</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch attention-text"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$attention-text</span>
+									        <span class="hex-value">#e10000</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch games-header-text"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$games-header-text</span>
+									        <span class="hex-value">#0a457f</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch primary-link-color"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$primary-link-color</span>
+									        <span class="hex-value">#1379de</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch secondary-link-color"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$secondary-link-color</span>
+									        <span class="hex-value">#5d85b6</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch primary-border-color"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$primary-border-color</span>
+									        <span class="hex-value">#cccccc</span>
+								        </div>
+							        </div>
+						        </li>
+						        <li>
+							        <div class="hex-card">
+								        <div class="swatch premium-message-primary-color"></div>
+								        <div class="swatch-panel">
+									        <span class="var-name">$premium-message-primary-color</span>
+									        <span class="hex-value">#00ce08</span>
+								        </div>
+							        </div>
+						        </li>
+					        </ul>
+				        </div>
+				        <div class="pattern-library-note">
+					        <h5>Brand Colors</h5>
+					        <p>These are the core colors in the Zoosk color palette plus black, white, and a greyscale range to provide contrast with the core colors.</p>
+				        </div>
+			        </div>
+			        
+			        
+		        </div>
+		        
+	        </div>
+	        
+        </div>
+        
         
     </body>
 </html>

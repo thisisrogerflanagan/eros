@@ -1,0 +1,11 @@
+/*****************************************************************************
+
+    Container with Vertically centered elements
+
+*****************************************************************************/
+.valign-mid-container {
+	> * {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}

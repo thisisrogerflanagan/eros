@@ -1,0 +1,72 @@
+/*****************************************************************************
+
+    PATTERN LIBRARY (TEMPLATE)
+
+*****************************************************************************/
+.pattern-library-view {
+	//margin-left: auto;
+	//margin-right: auto;
+	max-width: 1200px;
+}
+
+.pattern-library-header {
+	margin-bottom: 4rem;
+	
+	h1 {
+		> span {
+			color: $dark-red;
+			display: block;
+		}
+	}
+}
+
+.pattern-library-intro {
+	margin-bottom: 4rem;
+	padding-right: 28rem;
+	
+	h4 {
+		color: $med-grey;
+		font-size: 2.5rem;
+		font-weight: 300;
+		line-height: 1.4;
+	}
+}
+
+.pattern-library-section {
+	display: table;
+	margin-bottom: 4rem;
+	
+	h2 {
+		font-size: 2.4rem;
+		margin-bottom: 2rem;
+	}
+	
+	p {
+		font-size: 1.6rem;
+		line-height: 1.4;
+	}
+}
+
+.pattern-library-content {
+	display: table-cell;
+	padding-right: 4rem;
+}
+
+.pattern-library-note {
+	border-left: 2px solid $light-blue;
+	display: inline-block;
+	padding: 1rem 1.5rem;
+	width: 240px;
+	
+	h5, p {color: $med-grey;}
+	
+	h5 {
+		font-size: 1.4rem;
+		margin-bottom: 1rem;
+	}
+	
+	p {
+		font-size: 1.2rem;
+		line-height: 1.4;	
+	}
+}

@@ -1,0 +1,41 @@
+/*****************************************************************************
+
+    HEX CARD (PATTERN LIBRARY)
+
+*****************************************************************************/
+.swatch {
+	border-radius: 4px 4px 0 0;
+	height: 160px;
+}
+
+.swatch-panel {
+	background: $light-grey;
+	border-radius: 0 0 4px 4px;
+	padding: 1.5rem;
+	text-align: center;
+	
+	> span {
+		display: block;
+	}
+}
+
+.var-name {
+	color: $med-grey;
+	margin-bottom: 0.5rem;
+}
+
+.hex-value {
+	color: $dark-red;
+}
+
+// Temporary Swatch Modifiers
+.body-text {background: #333;}
+.subtle-text {background: #666;}
+.very-subtle-text {background: #999;}
+.general-page-header-text {background: #465054;}
+.attention-text {background: #e10000;}
+.games-header-text {background: #0a457f;}
+.primary-link-color {background: #1379de;}
+.secondary-link-color {background: #5d85b6;}
+.primary-border-color {background: #ccc;}
+.premium-message-primary-color {background: #00ce08;}

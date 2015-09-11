@@ -1,0 +1,292 @@
+/*****************************************************************************
+
+    Icon Font - Styles to support the use of icons as a font
+
+*****************************************************************************/
+@font-face{
+	font-family:'ZooskIcons';
+	src: url('https://zephyrzoosk-a.akamaihd.net/zephyr_ci_nodeBuild2142/fonts/zoosk-icon.eot');
+	src: url('https://zephyrzoosk-a.akamaihd.net/zephyr_ci_nodeBuild2142/fonts/zoosk-icon.eot?#iefix') format('embedded-opentype'),
+		 url('https://zephyrzoosk-a.akamaihd.net/zephyr_ci_nodeBuild2142/fonts/zoosk-icon.woff') format('woff'),
+		 url('https://zephyrzoosk-a.akamaihd.net/zephyr_ci_nodeBuild2142/fonts/zoosk-icon.ttf') format('truetype');
+}
+
+.icon-font {
+    font-family: 'ZooskIcons';
+    font-weight: normal;
+    
+    &:before {display: inline-block;}
+}
+
+.lonely-icon {
+    display: inline-block;
+}
+
+.screen-reader-text {
+    height: 0;
+    left: -9999px;
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    width: 0;
+}
+
+.icon-arrow-no-circle:before        {content: "\e674";}
+.icon-sentopen:before               {content: "\e600";}
+.icon-inboxempty:before             {content: "\e601";}
+.icon-addempty:before               {content: "\e602";}
+.icon-winkempty:before              {content: "\e603";}
+.icon-key:before                    {content: "\e604";}
+.icon-settings:before               {content: "\e605";}
+.icon-sliders:before                {content: "\e606";}
+.icon-match:before                  {content: "\e607";}
+.icon-sent:before                   {content: "\e608";}
+.icon-inbox:before                  {content: "\e609";}
+.icon-trash:before                  {content: "\e60a";}
+.icon-search:before                 {content: "\e60b";}
+.icon-alertempty:before             {content: "\e60c";}
+.icon-promotefilled:before          {content: "\e60d";}
+.icon-promoteempty:before           {content: "\e60e";}
+.icon-coinsfilled:before            {content: "\e60f";}
+.icon-coinsempty:before             {content: "\e610";}
+.icon-navfilled:before              {content: "\e611";}
+.icon-navempty:before               {content: "\e612";}
+.icon-notificationsfilled:before    {content: "\e613";}
+.icon-notificationsempty:before     {content: "\e614";}
+.icon-winkfilled:before             {content: "\e615";}
+.icon-addfilled:before              {content: "\e616";}
+.icon-giftfilled:before             {content: "\e617";}
+.icon-giftempty:before              {content: "\e618";}
+.icon-pencil:before                 {content: "\e619";}
+.icon-alertfilled:before            {content: "\e61a";}
+.icon-carousel:before               {content: "\e61b";}
+.icon-boost:before                  {content: "\e61c";}
+.icon-earncoins:before              {content: "\e61d";}
+.icon-help:before                   {content: "\e61e";}
+.icon-subscribe:before              {content: "\e61f";}
+.icon-zsms:before                   {content: "\e620";}
+.icon-views:before                  {content: "\e621";}
+.icon-connections:before            {content: "\e622";}
+.icon-searchglare:before            {content: "\e623";}
+.icon-messages:before               {content: "\e624";}
+.icon-onlinenow:before              {content: "\e625";}
+.icon-priority:before               {content: "\e626";}
+.icon-replied:before                {content: "\e627";}
+.icon-conversations:before          {content: "\e628";}
+.icon-camera:before                 {content: "\e629";}
+.icon-alert-filled-box:before       {content: "\e62a";}
+.icon-alertsbubble:before           {content: "\e62b";}
+.icon-heart:before                  {content: "\e62c";}
+.icon-question:before               {content: "\e62d";}
+.icon-phone2:before                 {content: "\e62e";}
+.icon-block:before                  {content: "\e62f";}
+.icon-myprofile:before              {content: "\e630";}
+.icon-chatanytime:before            {content: "\e631";}
+.icon-chatanytimeempty:before       {content: "\e632";}
+.icon-requestphotos:before          {content: "\e633";}
+.icon-requestverify:before          {content: "\e634";}
+.icon-verified:before               {content: "\e635";}
+.icon-close:before                  {content: "\e636";}
+.icon-coinstack:before              {content: "\e637";}
+.icon-promoteheart:before           {content: "\e638";}
+.icon-error:before                  {content: "\e639";}
+.icon-question-circle:before        {content: "\e63a";}
+.icon-globe-filled:before           {content: "\e63b";}
+.icon-globe:before                  {content: "\e63c";}
+.icon-arrow:before                  {content: "\e63d";}
+.icon-music:before                  {content: "\e63e";}
+.icon-tall:before                   {content: "\e63f";}
+.icon-well-educated:before          {content: "\e640";}
+.icon-books:before                  {content: "\e641";}
+.icon-movies:before                 {content: "\e642";}
+.icon-sports:before                 {content: "\e643";}
+.icon-television:before             {content: "\e644";}
+.icon-games:before                  {content: "\e645";}
+.icon-christian:before              {content: "\e646";}
+.icon-jewish:before                 {content: "\e647";}
+.icon-good-shape:before             {content: "\e648";}
+.icon-who-you-like:before           {content: "\e649";}
+.icon-who-likes-you:before          {content: "\e64a";}
+.icon-your-dating-style:before      {content: "\e64b";}
+.icon-insights:before               {content: "\e64b";} // Icon for Insights in main navigation in New Nav. Uses same icon as Your Dating Style in Insights
+.icon-spiritual:before              {content: "\e64c";}
+.icon-libra:before                  {content: "\e64d";}
+.icon-gemini:before                 {content: "\e64e";}
+.icon-cancer:before                 {content: "\e64f";}
+.icon-pisces:before                 {content: "\e650";}
+.icon-aquarius:before               {content: "\e651";}
+.icon-sagittarius:before            {content: "\e652";}
+.icon-gear:before                   {content: "\e653";}
+.icon-taurus:before                 {content: "\e654";}
+.icon-virgo:before                  {content: "\e655";}
+.icon-scorpio:before                {content: "\e656";}
+.icon-aries:before                  {content: "\e657";}
+.icon-leo:before                    {content: "\e658";}
+.icon-capricorn:before              {content: "\e659";}
+.icon-profilefemale:before          {content: "\e65a";}
+.icon-messages3:before              {content: "\e65b";}
+.icon-profilemale:before            {content: "\e65c";}
+.icon-body-type:before              {content: "\e65d";}
+.icon-smoking-circle:before         {content: "\e65e";}
+.icon-briefcase:before              {content: "\e65f";}
+.icon-success:before                {content: "\e660";}
+.icon-drinking:before               {content: "\e661";}
+.icon-fb:before                     {content: "\e662";}
+.icon-google:before                 {content: "\e663";}
+.icon-phone:before                  {content: "\e664";}
+.icon-twitter:before                {content: "\e665";}
+.icon-messages-old:before           {content: "\e666";}
+.icon-success-check:before          {content: "\e667";}
+.icon-remove:before                 {content: "\e668";}
+.icon-remove-x:before               {content: "\e669";}
+.icon-clock:before                  {content: "\e66a";}
+.icon-interests-people:before       {content: "\e66b";}
+.icon-rotate:before                 {content: "\e66c";}
+.icon-nomatch:before                {content: "\e66d";}
+.icon-smartpick:before              {content: "\e66e";}
+.icon-hourglass:before              {content: "\e66f";}
+.icon-smartpick-sm:before           {content: "\e670";}
+.icon-smartpick-accept:before       {content: "\e671";}
+.icon-smartpick-decline:before      {content: "\e672";}
+.icon-question-circle-filled:before {content: "\e673";}
+.icon-likes-heart:before            {content: "\e675";}
+.icon-document:before               {content: "\e676";}
+.icon-camera-greetings:before       {content: "\e67c";}
+.icon-chat-messages:before          {content: "\e67b";}
+.icon-negative-action:before        {content: "\e67d";}
+
+/* Added to the icon font per iOS's request. I'm commenting out until non-native apps need them.
+.icon-down-carrot:before {
+    content: "\e677";
+}
+*/
+
+/* Added to the icon font per iOS's request. I'm commenting out until non-native apps need them.
+.icon-envelope-circle:before {
+    content: "\e678";
+}
+*/
+
+/* Added to the icon font per iOS's request. I'm commenting out until non-native apps need them.
+.icon-ios-check-empty:before {
+    content: "\e679";
+}
+*/
+
+.icon-ios-check-filled:before {
+    content: "\e67a";
+}
+
+/* Added to the icon font per iOS's request. I'm commenting out until non-native apps need them.
+.icon-chat-messages:before {
+    content: "\e67b";
+}
+*/
+
+/* Added to the icon font per iOS's request. I'm commenting out until non-native apps need them.
+.icon-camera-greetings:before {
+    content: "\e67c";
+}
+*/
+
+.icon-negative-action:before {
+    content: "\e67d";
+}
+
+.icon-fb-likes:before {
+    content: "\e67e";
+}
+
+.icon-likes-heart-solid:before {
+    content: "\e67f";
+}
+
+.icon-new-search:before {
+    content: "\e680";
+}
+
+.icon-mutual-web:before {
+    content: "\e681";
+}
+
+.icon-interested-web:before {
+    content: "\e682";
+}
+
+.icon-invisible:before {
+    content: "\e683";
+}
+
+.icon-filter-filled:before {
+    content: "\e684";
+}
+
+.icon-wire-question-mark:before {
+    content: "\e686";
+}
+
+.icon-introductions-avatar:before {
+    content: "\e687";
+}
+
+.icon-cart:before {
+    content: "\e688";
+}
+
+.icon-right-arrow:before {
+	content: "\e692";
+}
+
+.icon-up-arrow:before {
+	content: "\e693";
+}
+
+.icon-left-arrow:before {
+	content: "\e694";
+}
+
+.icon-z_subscribe:before {
+    content: "\e68a";
+}
+
+.icon-premium-messaging:before {
+    content: "\e68b";
+}
+
+.icon-left-arrow:before {
+	content: "\e694";
+}
+
+.icon-up-arrow:before {
+	content: "\e693";
+}
+
+.icon-right-arrow:before {
+	content: "\e692";
+}
+
+.icon-maybe:before {
+	content: "\e695";
+}
+
+.icon-settings-wire:before {
+	content: "\e696";
+}
+
+.icon-report-arrow:before {
+	content: "\e697";
+}
+
+.icon-thin-search:before {
+	content: "\e698";
+}
+
+.icon-eyeball:before {
+	content: "\e699";
+}
+
+
+
+
+
+
